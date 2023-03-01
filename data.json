@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "fname": "abdelrahman",
+    "lname": "mohab",
+    "age": "19",
+    "city": "alex"
+  },
+  {
+    "id": "2",
+    "fname": "ahmed",
+    "lname": "sameh",
+    "age": "15",
+    "city": "alex"
+  },
+  {
+    "id": "3",
+    "fname": "jana",
+    "lname": "ahmed",
+    "age": "19",
+    "city": "cairo"
+  },
+  { "id": "4", "fname": "ramy", "lname": "kmal", "age": "36", "city": "cairo" },
+  { "id": "5", "fname": "samy", "lname": "ehab", "age": "32", "city": "alex" },
+  {
+    "id": "6",
+    "fname": "maged",
+    "lname": "yasser",
+    "age": "19",
+    "city": "sharm"
+  },
+  { "id": "7", "fname": "sara", "lname": "ahmed", "age": "21", "city": "alex" },
+  {
+    "id": "8",
+    "fname": "gehad",
+    "lname": "sameh",
+    "age": "16",
+    "city": "cairo"
+  },{
+    "id": "9",
+    "fname": "fahed",
+    "lname": "sameh",
+    "age": "16",
+    "city": "cairo"
+  }
+,  {
+    "id": "10",
+    "fname": "eyad",
+    "lname": "rageb",
+    "age": "34",
+    "city": "cairo"
+  },
+  {
+    "id": "16",
+    "fname": "maged",
+    "lname": "mostafa",
+    "age": "19",
+    "city": "alex"
+  },
+  {
+    "id": "17",
+    "fname": "taha",
+    "lname": "mohab",
+    "age": "19",
+    "city": "alex"
+  },
+  {
+    "id": "18",
+    "fname": "rana",
+    "lname": "mohab",
+    "age": "19",
+    "city": "alex"
+  },
+  { "id": "20", "fname": "huda", "lname": "mazen", "age": "19", "city": "alex" }
+]
