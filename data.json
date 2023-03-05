@@ -1,75 +1,102 @@
 [
   {
-    "id": "1",
+    "id": "2",
     "fname": "abdelrahman",
     "lname": "mohab",
-    "age": "19",
-    "city": "alex"
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 94, 90, 96, 79, 99],
+    "total": 548,
+    "avg": "91.33%"
   },
   {
-    "id": "2",
-    "fname": "ahmed",
-    "lname": "sameh",
-    "age": "15",
-    "city": "alex"
+    "id": "1",
+    "fname": "saber",
+    "lname": "ahmed",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 94, 79, 46, 79, 99],
+    "total": 487,
+    "avg": "81.17%"
   },
   {
     "id": "3",
-    "fname": "jana",
+    "fname": "maged",
     "lname": "ahmed",
-    "age": "19",
-    "city": "cairo"
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 44, 73, 26, 79, 99],
+    "total": 411,
+    "avg": "68.50%"
   },
-  { "id": "4", "fname": "ramy", "lname": "kmal", "age": "36", "city": "cairo" },
-  { "id": "5", "fname": "samy", "lname": "ehab", "age": "32", "city": "alex" },
+  {
+    "id": "4",
+    "fname": "marwan",
+    "lname": "sameh",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 54, 63, 86, 79, 99],
+    "total": 471,
+    "avg": "78.50%"
+  },
+  {
+    "id": "5",
+    "fname": "maged",
+    "lname": "ahmed",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 44, 73, 26, 79, 99],
+    "total": 411,
+    "avg": "68.50%"
+  },
   {
     "id": "6",
-    "fname": "maged",
-    "lname": "yasser",
-    "age": "19",
-    "city": "sharm"
+    "fname": "abdelrahman",
+    "lname": "mohab",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 94, 90, 96, 79, 99],
+    "total": 548,
+    "avg": "91.33%"
   },
-  { "id": "7", "fname": "sara", "lname": "ahmed", "age": "21", "city": "alex" },
+  {
+    "id": "7",
+    "fname": "mariem",
+    "lname": "ahmed",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 44, 73, 26, 79, 99],
+    "total": 411,
+    "avg": "68.50%"
+  },
   {
     "id": "8",
-    "fname": "gehad",
-    "lname": "sameh",
-    "age": "16",
-    "city": "cairo"
-  },{
+    "fname": "marwan",
+    "lname": "ahmed",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [9, 44, 73, 26, 79, 99],
+    "total": 330,
+    "avg": "55.00%"
+  },
+  {
     "id": "9",
-    "fname": "fahed",
+    "fname": "marwan",
     "lname": "sameh",
-    "age": "16",
-    "city": "cairo"
-  }
-,  {
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 54, 63, 86, 79, 99],
+    "total": 471,
+    "avg": "78.50%"
+  },
+  {
     "id": "10",
-    "fname": "eyad",
-    "lname": "rageb",
-    "age": "34",
-    "city": "cairo"
-  },
-  {
-    "id": "16",
-    "fname": "maged",
-    "lname": "mostafa",
-    "age": "19",
-    "city": "alex"
-  },
-  {
-    "id": "17",
-    "fname": "taha",
-    "lname": "mohab",
-    "age": "19",
-    "city": "alex"
-  },
-  {
-    "id": "18",
-    "fname": "rana",
-    "lname": "mohab",
-    "age": "19",
-    "city": "alex"
-  },
-  { "id": "20", "fname": "huda", "lname": "mazen", "age": "19", "city": "alex" }
+    "fname": "saber",
+    "lname": "ahmed",
+    "age": "20",
+    "city": "cairo",
+    "Gradecourses": [90, 94, 79, 46, 79, 99],
+    "total": 487,
+    "avg": "81.17%"
+  }
 ]

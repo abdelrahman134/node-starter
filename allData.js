@@ -13,25 +13,44 @@ const saveDate=(data)=>{
     const dataJson=JSON.stringify(data)
     fs.writeFileSync("data.json",dataJson)
 }
-const addData=(id,fname,lname,age,city)=>{
-    const data=loadData()
-    const duplicate=data.filter((dataCheck)=>{
-        return dataCheck==id
+const addData = (
+  id,
+  fname,
+  lname,
+  age,
+  city,
+  course1,
+  course2,
+  course3,
+  course4,
+  course5,
+  course6
+) => {
+  const data = loadData();
+  console.log(course1);
+const courses=[course1,course2,course3,course4,course5,course6]
+const total=courses.reduce((prev,next)=>prev+next,0)
+const avg= ( (total/600)*100).toFixed(2)
+  const duplicate = data.filter((dataCheck) => {
+    return dataCheck.id == id;
+  });
+  if (duplicate.length == 0) {
+    data.push({
+      id,
+      fname,
+      lname,
+      age,
+      city,
+      Gradecourses:courses,
+      total:total,
+      avg:`${avg}%`
+    });
+  } else {
+    console.log("DUPLICATED ID");
+  }
+  saveDate(data);
+};
 
-    })
-    if(duplicate.length==0){
-     data.push({
-        id,
-        fname,
-        lname,
-        age,
-        city
-     })
-    }else{
-        console.log("DUPLICATED ID");
-    }
-    saveDate(data)
-}
 const delData=(id)=>{
   const data=loadData()
   const deletedData=data.filter(del=>del.id!==id)
